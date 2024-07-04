@@ -18,7 +18,7 @@ const Header = () => {
                 <div className="hidden xl:flex items-center gap-8">
                 <Nav />
                 <Link href="/inscricao">
-                    <Button >Inscreva-se</Button>
+                    <Button variant={"default_personalizado"} >Inscreva-se</Button>
                 </Link>
                 </div>
                 {/* mobile nav*/}
