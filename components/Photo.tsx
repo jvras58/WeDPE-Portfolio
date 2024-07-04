@@ -31,7 +31,7 @@ const Photo = () => {
                     priority
                     quality={100}
                     fill
-                    alt="judas iscariotes"
+                    alt="photo"
                 />
             </motion.div>
             {/* Circulo */}
