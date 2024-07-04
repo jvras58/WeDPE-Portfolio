@@ -20,7 +20,7 @@ const Home = () => {
         </p>
         {/* botão e redes Rede */}
         <div className="flex flex-col xl:flex-row items-center gap-8">
-          <a className="uppercase flex items-center gap-2 border border-accent rounded-full px-4 py-2 hover:bg-accent hover:text-primary transition-all duration-500">
+          <a className="uppercase flex items-center gap-2 border border-accent rounded-full px-4 py-2 hover:bg-accent transition-all duration-500">
           <span>Inscreva-se</span>
           <FaWpforms className="text-xl" />
           </a>
