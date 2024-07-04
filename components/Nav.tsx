@@ -16,10 +16,6 @@ const links = [
     name: "Projetos",
     path: "/projetos",
     },
-    {
-    name: "Inscrição",
-    path: "/inscricao",
-    },
 ]
 
 const Nav = () => {
