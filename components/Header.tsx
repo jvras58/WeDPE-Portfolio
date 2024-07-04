@@ -11,7 +11,7 @@ const Header = () => {
                 {/* Logo */}
                 <Link href="/">
                 <h1 className="text-4xl font-semibold">
-                    Web-PE<span className="text-accent">@</span>
+                    Wed-PE<span className="text-accent">@</span>
                 </h1>
                 </Link>
                 {/* desktop nav && Inscreva-se button*/}
