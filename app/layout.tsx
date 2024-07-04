@@ -14,8 +14,8 @@ const jetbrains_Mono = JetBrains_Mono({
 });
 
 export const metadata = {
-  title: " I Web-Pe",
-  description: "I webinario sobre Datawire-Hause",
+  title: " 1° WeD PE 24.1",
+  description: "1° WorkShop de Engenharia de dados",
 };
 
 export default function RootLayout({

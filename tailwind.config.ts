@@ -23,14 +23,14 @@ module.exports = {
       primary: "var(--font-jetbrains-mono)",
     },
     extend: {
-
       colors: {
-      // TODO: Cor de todo o layout
-      primary: '#1c1c22',
-      accent: {
-        DEFAULT: '#DB1E2F',
-        hover: '#AF0421',
-      },
+        // TODO: Cor de todo o layout
+        primary: '#1c1c22',
+        accent: {
+          DEFAULT: '#DB1E2F',
+          hover: '#AF0421',
+        },
+        'dark-gray': '#FCFCFC',
       },
       keyframes: {
         "accordion-down": {
