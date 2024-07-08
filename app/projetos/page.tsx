@@ -80,7 +80,7 @@ const Work = () => {
                                     return( 
                                     <li key={index} className="text-xl text-accent">
                                         {item.name}
-                                        {/* remove the last commo*/}
+                                        {/* remove a última comunicação*/}
                                         {index !== project.stack.length - 1 && ","}
                                     </li>
                                 
@@ -104,7 +104,7 @@ const Work = () => {
                                     </Tooltip>
                                 </TooltipProvider>
                                 </Link>
-                                {/* github project button */}
+                                {/* slide project button */}
                                 <Link href={project.Slide}>
                                 <TooltipProvider delayDuration={100}>
                                     <Tooltip>
@@ -149,7 +149,7 @@ const Work = () => {
                             );
                         })}
                         <WorkSliderBtns 
-                            containerStyles="flex gap-2 absolute right-0 bottom-[calc(50%_-_22px)] sm:bottom-0 z-20 w-full justify-between sm:w-max sm:justify-none"
+                            containerStyles="flex gap-2 absolute right-0 bottom-[calc(50%_-_22px)] xl:bottom-0 z-20 w-full justify-between xl:w-max xl:justify-none"
                             btnStyles="bg-accent hover:bg-accent-hover text-primary text-[22px] w-[44px] h-[44px] flex justify-center items-center rounded-full transition-all"
                             iconsStyle=""
                         />
